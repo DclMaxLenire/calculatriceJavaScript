@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section>
+        <h1>Calculatrice</h1>
+        <form>
+            <div class="chiffreSelection" id="chiffreSelection">
+                <label for="chiffre"> </label>
+                <input input="text" placeholder="chiffre" id="chiffre" name="chiffre" maxlength="4" onKeyUp="verificationNombre()">
+            </div>
+            <div class="calculChoix" id="calculChoix">
+            <select name="calcul">
+                <option>Choissisez le calcul </option>
+                <option value="addition">addition </option>
+                <option value="multiplication">multiplication</option>
+                <option value="soustraction"> soustraction</option>
+                <option value="division"> division</option>
+            </select>
+            </div>
+            <div class="chiffreSelection2" id="chiffreSelection2">
+            <label for="chiffre2"> </label>
+            <input input="text" placeholder="chiffre" id="chiffre2" name="chiffre2" maxlength="4">
+            </div>
+            <div class="boutonCalcul" id="boutonCalcul">
+            <button type="submit"  id="calculer" name="chiffre">Calculer</button>
+            </div>
+            <div class="resultat" id="resultat">
+            <label for="resultat"> </label>
+            <input input="text" placeholder="resultat" id="calculer" name="resultat">
+            </div>
+        </form>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
