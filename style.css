@@ -1,5 +1,17 @@
+html {
+    background-color:gray;
+}
+
 h1 {
     text-align:center;
+    color: #FFFFFF;
+    text-shadow: 0 1px 0px black, 1px 0 0px black, 1px 2px 1px black, 2px 1px 1px black, 2px 3px 2px black, 3px 2px 2px black, 3px 4px 2px black, 4px 3px 3px black, 4px 5px 3px black, 5px 4px 2px black, 5px 6px 2px black, 6px 5px 2px black, 6px 7px 1px black, 7px 6px 1px black, 7px 8px 0px black, 8px 7px 0px black, 24px -4px 5px rgba(28,110,164,0);
+    padding:2%;
+}
+h2 {
+    text-align:center;
+    color:white;
+    text-shadow:0 1px 0px black, 1px 0 0px black, 1px 2px 1px black, 2px 1px 1px black, 2px 3px 2px black, 3px 2px 2px black, 3px 4px 2px black, 4px 3px 3px black, 4px 5px 3px black, 5px 4px 2px black, 5px 6px 2px black, 6px 5px 2px black, 6px 7px 1px black, 7px 6px 1px black, 7px 8px 0px black, 8px 7px 0px black, 24px -4px 5px rgba(28,110,164,0);
 }
 form {
     display:flex;
@@ -7,21 +19,49 @@ form {
 }
 .chiffreSelection {
     margin:auto;
-    padding:5%;
+    padding:2%;
+    padding-left:30%;
+    padding-right:30%;
+    justify-content:center;
 }
 .calculChoix {
     margin:auto;
-    padding:5%;
+    padding:2%;
+    padding-left:30%;
+    padding-right:30%;    
 }
 .chiffreSelection2 {
     margin:auto;
-    padding:5%;
+    padding:2%;
+    padding-left:30%;
+    padding-right:30%;
+    margin-bottom:5%;
 }
 .boutonCalcul {
     margin:auto;
-    padding:5%;
+    margin-bottom:6%;
+    padding:2%;
+    color:white;
+    box-shadow: 16px 14px 15px 9px #000000;
+    text-shadow:0 1px 0px black, 1px 0 0px black, 1px 2px 1px black, 2px 1px 1px black, 2px 3px 2px black, 3px 2px 2px black, 3px 4px 2px black, 4px 3px 3px black, 4px 5px 3px black, 5px 4px 2px black, 5px 6px 2px black, 6px 5px 2px black, 6px 7px 1px black, 7px 6px 1px black, 7px 8px 0px black, 8px 7px 0px black, 24px -4px 5px rgba(28,110,164,0);
+
+}
+.boutonCalcul:hover {background-color: grey}
+
+.boutonCalcul:active {
+  background-color: grey;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
 }
 .resultat {
     margin:auto;
+    padding:2%;
+    padding-left:30%;
+    padding-right:30%;
+    color:white;
+}
+.nouveauCalcul {
+    text-align:center;
     padding:5%;
+    color:white;
 }
